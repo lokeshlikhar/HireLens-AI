@@ -1,0 +1,23 @@
+.error-popup {
+  position: fixed;
+  z-index: 1000;
+  top: 1rem;
+  right: 1rem;
+  max-width: min(420px, calc(100vw - 2rem));
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #a90f31;
+  color: #fff;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 35%);
+}
+
+.error-popup button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

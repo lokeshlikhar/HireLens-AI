@@ -1,0 +1,113 @@
+.auth-page {
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: #0d1117;
+  color: #e6edf3;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+}
+.auth-card {
+  width: min(100%, 430px);
+  box-sizing: border-box;
+  padding: 2.25rem;
+  border: 1px solid #2a3348;
+  border-radius: 1rem;
+  background: #161b22;
+  box-shadow: 0 18px 45px rgb(0 0 0 / 25%);
+}
+.auth-brand {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.auth-brand__eyebrow {
+  margin: 0 0 0.5rem;
+  color: #ff2d78;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.auth-brand h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+.auth-brand p {
+  margin: 0.65rem 0 0;
+  color: #7d8590;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.auth-form {
+  display: grid;
+  gap: 1.15rem;
+}
+.input-group {
+  display: grid;
+  gap: 0.5rem;
+}
+.input-group label {
+  color: #e6edf3;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.input-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid #2a3348;
+  border-radius: 0.5rem;
+  outline: 0;
+  background: #1e2535;
+  color: #e6edf3;
+  font: inherit;
+}
+.input-group input::placeholder {
+  color: #7d8590;
+}
+.input-group input:focus {
+  border-color: #ff2d78;
+  box-shadow: 0 0 0 3px rgb(255 45 120 / 15%);
+}
+.auth-submit {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.8rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background: linear-gradient(135deg, #ff2d78, #cc2460);
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+}
+.auth-submit:hover {
+  opacity: 0.92;
+}
+.auth-footer {
+  margin: 1.5rem 0 0;
+  color: #7d8590;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.auth-footer a {
+  color: #ff6b9d;
+  font-weight: 600;
+  text-decoration: none;
+}
+.auth-footer a:hover {
+  color: #fff;
+}
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 1.5rem;
+  }
+}
