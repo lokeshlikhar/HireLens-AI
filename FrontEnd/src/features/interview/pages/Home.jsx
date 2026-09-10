@@ -305,7 +305,6 @@ const Home = () => {
         <div className="recent-reports__header">
           <div>
             <h2 id="recent-reports-heading">Your previous reports</h2>
-            <p>Most recently updated reports appear first.</p>
           </div>
         </div>
         {reports.length === 0 ? (
