@@ -84,8 +84,7 @@ const Home = () => {
           Create Your Custom <span className="highlight">Interview Plan</span>
         </h1>
         <p>
-          Let our AI analyze the job requirements and your unique profile to
-          build a winning strategy.
+          Let our AI analyzes your resume and target role to identify skill gaps, predict interview questions, and create a personalized preparation plan.
         </p>
         <p className="usage-notice">
           This project uses a limited-token LLM API and is made for learning
@@ -277,7 +276,7 @@ const Home = () => {
         {/* Card Footer */}
         <div className="interview-card__footer">
           <span className="footer-info">
-            AI-Powered Strategy Generation &bull; Approx 30s
+            AI-Powered Resume Analysis & Strategy Generation &bull; Approx 30s
           </span>
           <button
             className="generate-btn"
